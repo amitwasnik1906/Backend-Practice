@@ -24,8 +24,8 @@ const videoSchema = new Schema(
             default: 0
         },
         isPublished:{
-            type: true,
-            default: 0
+            type: Boolean,
+            default: true
         },
         owner:{
             type: Schema.Types.ObjectId,
